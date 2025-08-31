@@ -33,18 +33,18 @@ Every hunt campaign in QueryForge follows a structured, repeatable approach:
   ├── LICENSE
   ├── CrowdStrike-XDR/
   │    ├── LockBit-Ransomware/
-  │    │    ├── Hypothesis.md
+  │    │    ├── Hypothesis-Statement.md
   │    │    └── Hunt-Missions.md
   │    ├── APT29/
-  │    │    ├── Hypothesis.md
+  │    │    ├── Hypothesis-Statement.md
   │    │    └── Hunt-Missions.md
   │    └── ...
   ├── Cortex-XDR/
   │    ├── Emotet-Campaign/
-  │    │    ├── Hypothesis.md
+  │    │    ├── Hypothesis-Statement.md
   │    │    └── Hunt-Missions.md
   │    ├── Log4Shell-Exploitation/
-  │    │    ├── Hypothesis.md
+  │    │    ├── Hypothesis-Statement.md
   │    │    └── Hunt-Missions.md
   │    └── ...
 ```
