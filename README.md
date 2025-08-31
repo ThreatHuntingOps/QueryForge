@@ -64,7 +64,7 @@ Every hunt campaign in QueryForge follows a structured, repeatable approach:
   - LinkedIn: [www.linkedin.com/in/4ale](https://www.linkedin.com/in/4ale)  
   - GitHub: [@ThreatHuntingOps/QueryForge](https://github.com/ThreatHuntingOps/QueryForge)  
 - 🚫 **External contributions are not being accepted at this time.** This repository is maintained solely by its author to ensure content consistency and quality.  
-- 🚫 Do not present this material as your own without attribution — it is forbidden.  
+- 🚫 Do not present this material as your own without attribution - it is forbidden.  
 
 ---
 
