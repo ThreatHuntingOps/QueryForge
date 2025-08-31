@@ -62,7 +62,7 @@ Every hunt campaign in QueryForge follows a structured, repeatable approach:
 - You are free to **use, adapt, and share** these queries in your own environment.  
 - If you share or reuse this material, please credit the author:  
   - LinkedIn: [www.linkedin.com/in/4ale](https://www.linkedin.com/in/4ale)  
-  - GitHub: [@ThreatHuntingOps](https://github.com/ThreatHuntingOps)  
+  - GitHub: [@ThreatHuntingOps](https://github.com/ThreatHuntingOps/QueryForge)  
 - 🚫 **External contributions are not being accepted at this time.** This repository is maintained solely by its author to ensure content consistency and quality.  
 - 🚫 Do not present this material as your own without attribution — it is forbidden.  
 
