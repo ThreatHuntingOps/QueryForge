@@ -1,0 +1,131 @@
+# Detection of WebDAV Access to Cloudflare Tunnel Domains
+
+## Severity or Impact of the Detected Behavior
+- **Risk Score:** 85
+- **Severity:** High
+
+## Hunt Analytics Metadata
+
+- **ID:** HuntQuery-Windows-WebDAV-TryCloudflare
+- **Operating Systems:** WindowsEndpoint, WindowsServer
+- **False Positive Rate:** Medium
+
+---
+
+## Hunt Analytics
+
+This hunt detects processes attempting to access remote resources via WebDAV over HTTPS using `trycloudflare.com` subdomains. This behavior is a hallmark of SERPENTINE#CLOUD payload delivery and command-and-control (C2), where attackers leverage Cloudflare Tunnel infrastructure to stage and deliver malicious files. Detected behaviors include:
+
+- Command lines referencing `trycloudflare.com@SSL\DavWWWRoot` (WebDAV over HTTPS)
+- Involvement of common process types: `cmd.exe`, `powershell.exe`, `wscript.exe`, and `cscript.exe`
+
+These techniques are associated with remote payload delivery, C2, and lateral movement.
+
+---
+
+## ATT&CK Mapping
+
+| Tactic                        | Technique   | Subtechnique | Technique Name                                 |
+|------------------------------|-------------|--------------|-----------------------------------------------|
+| TA0011 - Command and Control | T1105       | —            | Ingress Tool Transfer                         |
+| TA0008 - Lateral Movement    | T1021.002   | —            | Remote Services: SMB/Windows Admin Shares     |
+| TA0011 - Command and Control | T1071.001   | —            | Application Layer Protocol: Web Protocols     |
+
+---
+
+## Hunt Query Logic
+
+This query identifies suspicious WebDAV access to Cloudflare Tunnel domains by looking for:
+
+- Command lines referencing `trycloudflare.com@SSL\DavWWWRoot` (WebDAV over HTTPS)
+- Involvement of process types such as `cmd.exe`, `powershell.exe`, `wscript.exe`, or `cscript.exe`
+
+These patterns are indicative of attempts to leverage Cloudflare Tunnel infrastructure for remote payload delivery or C2.
+
+---
+
+## Hunt Query Syntax
+
+**Query Language:** XQL (Cortex Query Language)  
+**Platform:** Polo Alto Cortex XSIAM
+
+```xql
+// Title: Scripting/Command Process with trycloudflare.com@ssl\davwwwroot Indicator
+// Description: Detects cmd.exe, powershell.exe, wscript.exe, or cscript.exe processes with command lines containing 'trycloudflare.com@ssl\davwwwroot', which may indicate suspicious WebDAV usage over Cloudflare tunnels.
+// MITRE ATT&CK TTP ID: T1105
+
+config case_sensitive = false 
+| dataset = xdr_data 
+| filter event_type = ENUM.PROCESS 
+    and event_sub_type = ENUM.PROCESS_START 
+    and agent_os_type = ENUM.AGENT_OS_WINDOWS
+    and action_process_image_command_line contains "trycloudflare.com@ssl\\davwwwroot"
+    and (
+        action_process_image_name = "cmd.exe"
+        or action_process_image_name = "powershell.exe"
+        or action_process_image_name = "wscript.exe"
+        or action_process_image_name = "cscript.exe"
+    )
+| fields _time, agent_hostname, actor_effective_username, action_process_image_name, action_process_image_path, action_process_image_command_line, event_id, agent_id, _product
+| sort desc _time
+```
+
+---
+
+## Data Sources
+
+| Log Provider | Event Name       | ATT&CK Data Source  | ATT&CK Data Component  |
+|--------------|------------------|---------------------|------------------------|
+| Cortex XSIAM|    xdr_data       | Process             | Process Creation       |
+
+---
+
+## Execution Requirements
+
+- **Required Permissions:** User or attacker must be able to execute command shells or scripting engines.
+- **Required Artifacts:** Process creation logs, command-line arguments, and network connection records.
+
+---
+
+## Considerations
+
+- Review the source and context of the process and command line for legitimacy.
+- Correlate with user activity, email, or download logs to determine if the activity is user-initiated or automated.
+- Investigate any network connections to `trycloudflare.com` domains for signs of malicious payload delivery or C2.
+- Validate if the remote URL or WebDAV share is associated with known malicious infrastructure or threat intelligence indicators.
+
+---
+
+## False Positives
+
+False positives may occur if:
+
+- Users or IT staff legitimately use Cloudflare Tunnel for remote access or file transfer.
+- Automated tools or scripts generate and execute these commands for benign purposes.
+
+---
+
+## Recommended Response Actions
+
+1. Investigate the process and command line for intent and legitimacy.
+2. Analyze network connections to `trycloudflare.com` domains and WebDAV shares.
+3. Review user activity and system logs for signs of compromise or C2.
+4. Isolate affected endpoints if malicious activity is confirmed.
+5. Block or monitor access to suspicious Cloudflare Tunnel domains and WebDAV shares.
+
+---
+
+## References
+
+- [MITRE ATT&CK: T1105 – Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/)
+- [MITRE ATT&CK: T1021.002 – Remote Services: SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002/)
+- [MITRE ATT&CK: T1071.001 – Application Layer Protocol: Web Protocols](https://attack.mitre.org/techniques/T1071/001/)
+- [Securonix: Analyzing SERPENTINE#CLOUD Threat Actors Abuse Cloudflare Tunnels](https://www.securonix.com/blog/analyzing_serpentinecloud-threat-actors-abuse-cloudflare-tunnels-threat-research/)
+
+---
+
+## Version History
+
+| Version | Date       | Impact            | Notes                                                                                      |
+|---------|------------|-------------------|--------------------------------------------------------------------------------------------|
+| 1.0     | 2025-06-30 | Initial Detection | Created hunt query to detect WebDAV access to Cloudflare Tunnel domains |
