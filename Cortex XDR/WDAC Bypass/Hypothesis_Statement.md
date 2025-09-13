@@ -163,7 +163,7 @@ The hypothesis is built upon comprehensive analysis of WDAC bypass techniques do
 
 ## Detection Approach
 
-### Phase 1: Baseline Establishment (Week 1-2)
+### Phase 1: Baseline Establishment
 1. **Environment Mapping:**
    - Inventory systems with legitimate WDAC policies
    - Document authorized policy management processes
@@ -174,7 +174,7 @@ The hypothesis is built upon comprehensive analysis of WDAC bypass techniques do
    - Confirm registry monitoring for WDAC-related keys
    - Validate process execution logging and command-line capture
 
-### Phase 2: Active Hunting (Week 3-4)
+### Phase 2: Active Hunting
 1. **File System Hunting:**
    - Search for unauthorized `SiPolicy.p7b` files
    - Monitor Code Integrity directory modifications
@@ -190,7 +190,7 @@ The hypothesis is built upon comprehensive analysis of WDAC bypass techniques do
    - Analyze SMB traffic for policy file transfers
    - Correlate GPO updates with policy deployments
 
-### Phase 3: Advanced Analysis (Week 5-6)
+### Phase 3: Advanced Analysis
 1. **Policy Content Analysis:**
    - Extract and analyze discovered policy files
    - Identify malicious rules targeting EDR solutions
