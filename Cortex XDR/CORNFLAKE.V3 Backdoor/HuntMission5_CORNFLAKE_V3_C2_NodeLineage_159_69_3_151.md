@@ -39,7 +39,8 @@ Narrows detection to Windows network events where the destination is `159.69.3.1
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Node.exe in %APPDATA% reaching 159.69.3.151
