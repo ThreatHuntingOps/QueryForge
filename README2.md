@@ -5,7 +5,7 @@
 # QueryForge 🔥  
 *Forging powerful detection engineering content for threat hunters and defenders.*  
 
-[![Platform: Cortex XDR](https://img.shields.io/badge/Platform-Cortex%20XDR-orange?logo=paloaltonetworks&logoColor=white)](https://www.paloaltonetworks.com/cortex/xdr)  
+[![Platform: Cortex XDR](https://img.shields.io/badge/Platform-Cortex%20XDR-orange?logo=paloaltonetworks&logoColor=white)]()  
 [![Platform: XSIAM](https://img.shields.io/badge/Platform-XSIAM-red?logo=paloaltonetworks&logoColor=white)](https://www.paloaltonetworks.com/cortex/xsiam)  
 [![Platform: CrowdStrike Falcon XDR](https://img.shields.io/badge/Platform-CrowdStrike%20Falcon%20XDR-black?logo=crowdstrike&logoColor=white)](https://www.crowdstrike.com/products/falcon-xdr/)  
 
