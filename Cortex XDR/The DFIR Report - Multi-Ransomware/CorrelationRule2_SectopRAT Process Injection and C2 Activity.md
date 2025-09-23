@@ -51,7 +51,7 @@ The correlation filter detects:
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Hunt for SectopRAT process injection and C2 communications
