@@ -51,7 +51,7 @@ These patterns are indicative of attempts to execute obfuscated or malicious pay
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Detection of PowerShell with Suspicious Base64 Arguments
