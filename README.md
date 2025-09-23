@@ -8,7 +8,7 @@
 ---
 
 📖 **Overview**  
-QueryForge is a curated collection of **threat hunting queries, analytics, and correlation rules** for platforms such as **CrowdStrike Falcon XDR**, **Palo Alto Cortex XDR**, and **Palo Alto XSIAM**.  
+QueryForge is a curated collection of **threat hunting queries, analytics, and correlation rules** for platforms such as **CrowdStrike Falcon XDR**, **Palo Alto Networks Cortex XDR**, and **Cortex XSIAM**.  
 
 The repository helps defenders go **beyond out‑of‑the‑box detections** by:  
 - Developing **hypothesis-driven hunts**,  
