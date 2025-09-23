@@ -50,7 +50,7 @@ These patterns are indicative of Silver Fox APT's encrypted C2 and payload deliv
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 config case_sensitive = false 
