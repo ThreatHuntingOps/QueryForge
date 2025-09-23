@@ -8,7 +8,6 @@
 [![Platform: Cortex XDR](https://img.shields.io/badge/Platform-Cortex%20XDR-orange?logo=paloaltonetworks&logoColor=white)](https://www.paloaltonetworks.com/cortex/xdr)  
 [![Platform: XSIAM](https://img.shields.io/badge/Platform-XSIAM-red?logo=paloaltonetworks&logoColor=white)](https://www.paloaltonetworks.com/cortex/xsiam)  
 [![Platform: CrowdStrike Falcon XDR](https://img.shields.io/badge/Platform-CrowdStrike%20Falcon%20XDR-black?logo=crowdstrike&logoColor=white)](https://www.crowdstrike.com/products/falcon-xdr/)  
-[![View in ATT&CK Navigator](https://img.shields.io/badge/ATT%26CK-Navigator-blue?logo=mitre&logoColor=white)](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2FThreatHuntingOps%2FQueryForge%2Fmain%2FQueryForge_ATT%26CK_Layer.json)  
 
 ---
 
@@ -58,8 +57,8 @@ Each campaign follows a structured methodology:
 - **Silver Fox APT** – Hunt content aligned to APT tradecraft (persistence, escalation).  
 - **SharePoint 0‑Day** – Queries for exploitation of vulnerable SharePoint servers.  
 - **The DFIR Report – Multi‑Ransomware** – Mapping DFIR‑documented ransomware intrusions into hunts & detections.  
-- **RMM Tools Threat Hunt** *(CrowdStrike)* – Detects misuse of **legitimate RMM tools** by adversaries.  
-- **PipeMagic Backdoor** *(CrowdStrike)* – Persistence + backdoor activity abusing named pipes.  
+- **RMM Tools Threat Hunt** – Detects misuse of **legitimate RMM tools** by adversaries.  
+- **PipeMagic Backdoor** – Persistence + backdoor activity abusing named pipes.  
 
 ---
 
@@ -74,13 +73,6 @@ Each campaign follows a structured methodology:
 | **CrowdStrike XDR**    | RMM Tools Threat Hunt              | Abuse of **legitimate RMM tools** for persistence/remote | Hunt queries                           | **Execution** (T1569.002), **Persistence** (T1136) |
 | **CrowdStrike XDR**    | PipeMagic Backdoor                 | **Persistence & backdoor** via named pipes               | Hunt queries + detection logic         | **Execution** (T1059), **Persistence** (T1547.013) |
 
----
-
-## 🛡 MITRE ATT&CK Coverage  
-
-[![View in ATT&CK Navigator](https://img.shields.io/badge/ATT%26CK-Navigator-blue?logo=mitre&logoColor=white)](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2FThreatHuntingOps%2FQueryForge%2Fmain%2FQueryForge_ATT%26CK_Layer.json)  
-
-Click the badge above to launch **ATT&CK Navigator** with QueryForge coverage pre‑loaded.  
 
 ---
 
