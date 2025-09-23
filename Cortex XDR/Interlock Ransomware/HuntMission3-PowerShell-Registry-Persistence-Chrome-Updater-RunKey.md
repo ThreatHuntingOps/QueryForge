@@ -50,7 +50,7 @@ These patterns are indicative of persistence techniques that masquerade as legit
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PowerShell Registry Persistence via Chrome Updater Run Key
