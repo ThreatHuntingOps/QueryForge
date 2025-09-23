@@ -49,7 +49,7 @@ A match for this logic is a strong indicator of the HazyBeacon backdoor establis
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: HazyBeacon Persistence Service Creation "msdnetsvc"
