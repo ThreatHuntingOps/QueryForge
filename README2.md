@@ -83,8 +83,7 @@ Each campaign follows a structured methodology:
 🔑 **Key Takeaways**  
 - **QueryForge** = hypothesis-driven hunts + advanced correlation engineering.  
 - Organized by **real campaigns & adversary TTPs**.  
-- MITRE ATT&CK mapped + one‑click Navigator visualization.  
-
+- MITRE ATT&CK mapped.
 ---
 
 ⚡ **Ready to Hunt?**  
