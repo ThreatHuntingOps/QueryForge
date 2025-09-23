@@ -49,7 +49,7 @@ These patterns are indicative of credential dumping activity.
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (XDR Query Language)  
+**Query Language:** XQL (Cortex Query Language)
 **Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
