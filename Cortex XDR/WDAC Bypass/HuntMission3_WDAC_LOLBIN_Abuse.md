@@ -44,7 +44,7 @@ This query flags the execution of system binaries when observed with **abnormal 
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious System Binary Execution (LOLBIN Detection)
