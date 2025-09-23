@@ -52,7 +52,7 @@ Analysts should correlate detections with:
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PipeMagic Loader - test_pipe20 Pipe String in Command Line
