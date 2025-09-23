@@ -37,7 +37,8 @@ Flags `cmd.exe` or PowerShell processes that execute inline commands when their 
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Inline command execution (cmd/PowerShell) spawned by php.exe
