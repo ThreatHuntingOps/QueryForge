@@ -49,8 +49,8 @@ These patterns are indicative of credential dumping activity.
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (XDR Query Language)  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: LSASS Process Access and Dump File Creation
