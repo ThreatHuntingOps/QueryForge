@@ -35,7 +35,8 @@ Surfaces file-creation events for `.log` files in randomized 8+8 alphanumeric di
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious .log writes under random 8-char AppData path
