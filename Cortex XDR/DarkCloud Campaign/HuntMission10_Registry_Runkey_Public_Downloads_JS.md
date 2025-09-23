@@ -44,8 +44,8 @@ This query identifies suspicious **registry modifications** where Run keys refer
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: HKCU Run Key pointing to Public Downloads JS
