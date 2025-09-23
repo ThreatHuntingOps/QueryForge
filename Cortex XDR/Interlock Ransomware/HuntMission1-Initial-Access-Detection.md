@@ -49,7 +49,7 @@ These patterns are indicative of initial access attempts leveraging social engin
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Interlock Ransomware Initial Access Techniques
