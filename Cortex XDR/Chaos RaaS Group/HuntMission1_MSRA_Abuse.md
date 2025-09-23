@@ -41,8 +41,8 @@ An alert from this query is a starting point for an investigation to determine i
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Microsoft Quick Assist Execution for Potential Vishing-Based Initial Access
