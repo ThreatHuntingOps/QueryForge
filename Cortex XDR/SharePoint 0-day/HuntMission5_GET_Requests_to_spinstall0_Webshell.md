@@ -48,7 +48,7 @@ These patterns are indicative of attempts to interact with or exfiltrate data vi
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Detection of GET Requests to spinstall0.aspx Webshell
