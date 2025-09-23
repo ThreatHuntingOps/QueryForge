@@ -49,7 +49,7 @@ These patterns are indicative of WSF scripts used as part of a multi-stage dropp
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious WScript or CScript Execution of .wsf with Network Indicators
