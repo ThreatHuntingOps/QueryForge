@@ -44,7 +44,7 @@ The query combines **file write events** for new executables with **suspicious e
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Bring Your Own Vulnerable Application (BYVA) Detection 
