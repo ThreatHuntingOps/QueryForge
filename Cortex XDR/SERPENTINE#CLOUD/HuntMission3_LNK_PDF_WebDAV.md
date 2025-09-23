@@ -53,7 +53,7 @@ These patterns are indicative of LNK files crafted to appear as PDF documents bu
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious LNK or CMD Launch with WebDAV/Cloudflare/Script/Batch Indicators
