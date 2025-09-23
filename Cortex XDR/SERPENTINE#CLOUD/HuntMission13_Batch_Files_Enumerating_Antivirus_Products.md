@@ -41,7 +41,7 @@ Such patterns are often observed in the reconnaissance phase of an attack, where
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Batch File or Parent Batch File Invoking System or AV Discovery Commands
