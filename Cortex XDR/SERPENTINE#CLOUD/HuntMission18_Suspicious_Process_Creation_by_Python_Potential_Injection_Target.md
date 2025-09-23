@@ -41,7 +41,7 @@ Such patterns are rarely seen in legitimate environments and are often associate
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Notepad, Calculator, or Svchost Spawned by Python or run.py
