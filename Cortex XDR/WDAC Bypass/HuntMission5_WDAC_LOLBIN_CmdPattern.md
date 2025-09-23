@@ -46,7 +46,7 @@ This query evaluates command-line arguments for **specific abuse patterns** tied
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Advanced LOLBIN Command Line Pattern Detection 
