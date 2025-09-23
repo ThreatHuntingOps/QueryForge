@@ -39,7 +39,8 @@ Detects creation/modification of the `ChromeUpdater` Run key value whose data la
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Persistence — HKCU Run ChromeUpdater launching node.exe
