@@ -47,8 +47,8 @@ new process launches from the extracted file’s location within a 5‑minute wi
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: RAR Extraction -> Execute From Temp/AppData
