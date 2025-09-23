@@ -49,7 +49,7 @@ These patterns are indicative of Silver Fox APT's service-based and registry-bas
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 config case_sensitive = false 
