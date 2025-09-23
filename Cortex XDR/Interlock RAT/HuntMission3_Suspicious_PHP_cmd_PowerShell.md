@@ -52,7 +52,7 @@ This ancestry is highly suspicious and matches the Interlock RAT execution chain
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Detection of Suspicious PHP Spawning cmd.exe and PowerShell
