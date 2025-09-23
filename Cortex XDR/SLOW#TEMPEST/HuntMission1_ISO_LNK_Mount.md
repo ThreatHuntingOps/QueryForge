@@ -45,7 +45,7 @@ Such patterns are often associated with malspam campaigns or ISO droppers delive
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: ISO-Based LNK Execution via Mounted Devices
