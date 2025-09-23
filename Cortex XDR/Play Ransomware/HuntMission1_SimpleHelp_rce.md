@@ -44,7 +44,7 @@ These patterns are commonly seen in post-exploitation remote code execution and 
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: SimpleHelp Java Process with Suspicious Command Line Activity
