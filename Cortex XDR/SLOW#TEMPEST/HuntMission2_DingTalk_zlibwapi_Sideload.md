@@ -44,7 +44,7 @@ Such patterns are associated with SLOW#TEMPEST and other campaigns leveraging DL
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: DLL Sideloading via DingTalk and zlibwapi.dll
