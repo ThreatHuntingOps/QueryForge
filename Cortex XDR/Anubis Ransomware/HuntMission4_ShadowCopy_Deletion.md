@@ -36,8 +36,8 @@ This query identifies process execution events where `vssadmin.exe` is used to d
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Query Language:** XQL (XDR Query Language)  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM platforms
 
 ```xql
 // Title: Vssadmin Deleting All Shadows Quietly
