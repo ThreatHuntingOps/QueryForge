@@ -51,7 +51,7 @@ These patterns are indicative of attempts to execute obfuscated or malicious pay
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Description: This query identifies the IIS Process Worker, w3wp invoking a command shell which executes a base64 encoded PowerShell command. This is not specific to the CVE, and may catch potential other post-exploitation activity.
