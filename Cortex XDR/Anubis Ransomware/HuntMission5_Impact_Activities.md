@@ -42,7 +42,7 @@ These behaviors are rarely seen in legitimate administrative activity and are hi
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (XDR Query Language)  
+**Query Language:** XQL (Cortex Query Language)
 **Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
