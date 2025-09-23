@@ -49,8 +49,8 @@ These patterns are indicative of BlackSuit ransomware deployment via PsExec and 
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: BlackSuit Ransomware Payload Download and Execution via PsExec and PowerShell
