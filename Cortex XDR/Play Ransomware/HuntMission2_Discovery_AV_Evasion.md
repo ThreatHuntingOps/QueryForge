@@ -46,7 +46,7 @@ These patterns are commonly seen in lateral movement, privilege escalation, and 
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Security/AV Tool Usage from User Writeable Paths
