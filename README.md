@@ -63,11 +63,11 @@ Each campaign follows a structured methodology:
 | Platform               | Campaign                           | Focus Area                                                | Content Type                          | ATT&CK Mapping (Examples)                  |
 |------------------------|------------------------------------|----------------------------------------------------------|---------------------------------------|--------------------------------------------|
 | **Cortex XDR / XSIAM** | WDAC Bypass                        | Detection of **EDR impairment & WDAC bypass techniques** | Hunt queries + correlation rules       | **Defense Evasion** (T1562.001, T1562.006) |
-| **Cortex XDR / XSIAM** | Silver Fox APT                     | **APT campaign tradecraft**: persistence & escalation    | Hypotheses + hunt queries              | **Persistence** (T1547), **Privilege Esc.** (T1068) |
-| **Cortex XDR / XSIAM** | SharePoint 0‑Day                   | **Exploitation of SharePoint servers**                   | Hunt queries + detection logic         | **Initial Access** (T1190), **Execution** (T1203) |
-| **Cortex XDR / XSIAM** | The DFIR Report – Multi-Ransomware | **Multi‑ransomware intrusion detection**                 | Hunt queries + hypotheses              | **Impact** (T1486), **Command & Control** (T1071) |
+| **Cortex XDR / XSIAM** | Silver Fox APT                     | **APT campaign tradecraft**: persistence & escalation    | Hunt queries + correlation rule        | **Persistence** (T1547), **Privilege Esc.** (T1068) |
+| **Cortex XDR / XSIAM** | SharePoint 0‑Day                   | **Exploitation of SharePoint servers**                   | Hunt queries                           | **Initial Access** (T1190), **Execution** (T1203) |
+| **Cortex XDR / XSIAM** | The DFIR Report – Multi-Ransomware | **Multi‑ransomware intrusion detection**                 | Correlation rules                      | **Impact** (T1486), **Command & Control** (T1071) |
 | **CrowdStrike XDR**    | RMM Tools Threat Hunt              | Abuse of **legitimate RMM tools** for persistence/remote | Hunt queries                           | **Execution** (T1569.002), **Persistence** (T1136) |
-| **CrowdStrike XDR**    | PipeMagic Backdoor                 | **Persistence & backdoor** via named pipes               | Hunt queries + detection logic         | **Execution** (T1059), **Persistence** (T1547.013) |
+| **CrowdStrike XDR**    | PipeMagic Backdoor                 | **Persistence & backdoor** via named pipes               | Hunt queries                           | **Execution** (T1059), **Persistence** (T1547.013) |
 
 
 ---
