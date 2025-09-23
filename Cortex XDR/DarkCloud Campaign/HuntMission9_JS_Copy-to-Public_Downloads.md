@@ -43,7 +43,7 @@ This query identifies suspicious copy operations where `cmd.exe` performs a file
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: JS Copy to Public Downloads via cmd.exe
