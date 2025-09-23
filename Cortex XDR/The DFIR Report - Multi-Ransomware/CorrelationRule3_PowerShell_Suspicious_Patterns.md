@@ -47,7 +47,7 @@ Detections require a **pair of suspicious activities** for validation, reducing 
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Hunt for suspicious PowerShell activity with correlation
