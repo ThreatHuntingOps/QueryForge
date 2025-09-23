@@ -39,8 +39,8 @@ This query identifies the reconnaissance phase of a Kerberoasting attack by look
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: LDAPSearch for Kerberoastable Accounts
