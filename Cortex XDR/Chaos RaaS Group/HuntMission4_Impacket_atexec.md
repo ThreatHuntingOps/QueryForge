@@ -40,8 +40,8 @@ This query identifies `atexec`-like remote execution by looking for:
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Impacket-like Remote Execution (atexec) (Corrected)
