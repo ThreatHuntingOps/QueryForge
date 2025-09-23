@@ -44,7 +44,7 @@ The query surfaces registry modifications to WDAC-related keys and values. Any m
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: WDAC Registry Policy Manipulation Detection 
