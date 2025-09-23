@@ -46,7 +46,7 @@ This query identifies events where WDAC policy files are being created or modifi
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Malicious WDAC Policy File Detection
