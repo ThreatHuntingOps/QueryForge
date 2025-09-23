@@ -115,6 +115,6 @@ d. Nothing in this Public License constitutes or may be interpreted as a limitat
 
 ---
 
-This is a human-readable summary of (and not a substitute for) the license.  
+This is a summary of (and not a substitute for) the license.  
 For the full legal code, please see:  
 👉 https://creativecommons.org/licenses/by-nc/4.0/legalcode  
