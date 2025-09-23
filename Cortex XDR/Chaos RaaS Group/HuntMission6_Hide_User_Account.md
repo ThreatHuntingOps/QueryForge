@@ -38,8 +38,8 @@ Any new entry under this key corresponds to a user account that will be hidden f
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: User Account Hidden via SpecialAccounts Registry Modification

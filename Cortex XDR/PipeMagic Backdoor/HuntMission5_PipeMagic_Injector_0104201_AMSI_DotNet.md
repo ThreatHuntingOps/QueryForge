@@ -50,7 +50,7 @@ Run the two queries separately, then correlate results using `agent_hostname` (a
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PipeMagic Injector - 0104201 Pipe String in Command Line

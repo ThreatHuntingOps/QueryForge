@@ -44,8 +44,8 @@ This query identifies a behavioral pattern of active reconnaissance by looking f
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Chaos Ransomware Discovery Command Chain

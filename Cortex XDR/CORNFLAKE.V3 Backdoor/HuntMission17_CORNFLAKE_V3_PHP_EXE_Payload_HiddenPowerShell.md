@@ -40,7 +40,8 @@ Surfaces either:
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: EXE payload staged to %APPDATA%<8char>\ and started via hidden PowerShell

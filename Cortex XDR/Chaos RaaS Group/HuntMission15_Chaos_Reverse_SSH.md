@@ -40,8 +40,8 @@ This query identifies a specific C2 channel by looking for a precise combination
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Specific Chaos RaaS Reverse SSH Tunnel for C2

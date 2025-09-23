@@ -46,7 +46,7 @@ This rule correlates **EarthTime.exe execution** or **MSBuild abuse with subsequ
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM 
 
 ```xql
 // Hunt for EarthTime.exe execution and suspicious MSBuild.exe usage

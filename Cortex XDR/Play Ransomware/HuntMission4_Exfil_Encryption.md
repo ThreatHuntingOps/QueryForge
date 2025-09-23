@@ -46,7 +46,7 @@ These patterns are commonly seen in ransomware campaigns involving data theft an
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 config case_sensitive = false

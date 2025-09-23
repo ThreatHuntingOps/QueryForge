@@ -49,8 +49,8 @@ These patterns are indicative of process injection, defense evasion, or living-o
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Rundll32 Code Injection into wuaclt.exe

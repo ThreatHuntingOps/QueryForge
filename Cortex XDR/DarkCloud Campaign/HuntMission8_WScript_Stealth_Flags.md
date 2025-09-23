@@ -46,7 +46,7 @@ These patterns are indicative of attempts to execute malicious scripts for initi
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious WScript JS Execution 

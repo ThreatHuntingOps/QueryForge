@@ -49,8 +49,8 @@ These patterns are indicative of Cobalt Strike beacon execution with malicious n
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Rundll32 Execution of Cobalt Strike Beacons with Malicious Network Connections

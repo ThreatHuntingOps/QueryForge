@@ -40,7 +40,8 @@ Detects the Node self-respawn pattern where a parent `node.exe` spawns a child `
 
 ## Hunt Query Syntax 
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Node.exe self-respawn (child with extra “1” arg) and hidden window

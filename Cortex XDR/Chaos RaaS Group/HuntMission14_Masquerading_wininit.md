@@ -36,8 +36,8 @@ This query identifies process masquerading by looking for a simple but powerful 
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Masquerading wininit.exe Execution from Non-Standard Location

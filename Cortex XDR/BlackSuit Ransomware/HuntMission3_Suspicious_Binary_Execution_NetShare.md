@@ -48,8 +48,8 @@ These patterns are indicative of lateral movement, malware staging, or remote pa
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Binary Execution from Network Share

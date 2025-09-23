@@ -42,7 +42,7 @@ Such patterns are often associated with malware delivery, initial access, or exe
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious cscript.exe Execution of .wsf from Temp with //nologo

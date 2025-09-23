@@ -48,7 +48,7 @@ Correlate with network connections to Azure `cloudapp` domains and with subseque
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PipeMagic ChatGPT Loader Detection

@@ -36,7 +36,8 @@ Surfaces process creation events for `node.exe` from `%APPDATA%` Node directorie
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Node.exe launched at logon via HKCU Run ChromeUpdater

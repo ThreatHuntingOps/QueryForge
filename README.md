@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/QueryForge_banner_depth.png" alt="QueryForge Banner" width="100%"/>
+  <img src="assets/QF Banner.png" alt="QueryForge Banner" width="100%"/>
 </p>
 
 # QueryForge 🔥  
@@ -8,7 +8,7 @@
 ---
 
 📖 **Overview**  
-QueryForge is a curated collection of **threat hunting queries, analytics, and correlation rules** for platforms such as **CrowdStrike Falcon XDR**, **Palo Alto Cortex XDR**, and **Palo Alto XSIAM**.  
+QueryForge is a curated collection of **threat hunting queries, analytics, and correlation rules** for platforms such as **CrowdStrike Falcon XDR**, **Palo Alto Networks Cortex XDR**, and **Cortex XSIAM**.  
 
 The repository helps defenders go **beyond out‑of‑the‑box detections** by:  
 - Developing **hypothesis-driven hunts**,  
@@ -63,11 +63,11 @@ Each campaign follows a structured methodology:
 | Platform               | Campaign                           | Focus Area                                                | Content Type                          | ATT&CK Mapping (Examples)                  |
 |------------------------|------------------------------------|----------------------------------------------------------|---------------------------------------|--------------------------------------------|
 | **Cortex XDR / XSIAM** | WDAC Bypass                        | Detection of **EDR impairment & WDAC bypass techniques** | Hunt queries + correlation rules       | **Defense Evasion** (T1562.001, T1562.006) |
-| **Cortex XDR / XSIAM** | Silver Fox APT                     | **APT campaign tradecraft**: persistence & escalation    | Hypotheses + hunt queries              | **Persistence** (T1547), **Privilege Esc.** (T1068) |
-| **Cortex XDR / XSIAM** | SharePoint 0‑Day                   | **Exploitation of SharePoint servers**                   | Hunt queries + detection logic         | **Initial Access** (T1190), **Execution** (T1203) |
-| **Cortex XDR / XSIAM** | The DFIR Report – Multi-Ransomware | **Multi‑ransomware intrusion detection**                 | Hunt queries + hypotheses              | **Impact** (T1486), **Command & Control** (T1071) |
+| **Cortex XDR / XSIAM** | Silver Fox APT                     | **APT campaign tradecraft**: persistence & escalation    | Hunt queries + correlation rule        | **Persistence** (T1547), **Privilege Esc.** (T1068) |
+| **Cortex XDR / XSIAM** | SharePoint 0‑Day                   | **Exploitation of SharePoint servers**                   | Hunt queries                           | **Initial Access** (T1190), **Execution** (T1203) |
+| **Cortex XDR / XSIAM** | The DFIR Report – Multi-Ransomware | **Multi‑ransomware intrusion detection**                 | Correlation rules                      | **Impact** (T1486), **Command & Control** (T1071) |
 | **CrowdStrike XDR**    | RMM Tools Threat Hunt              | Abuse of **legitimate RMM tools** for persistence/remote | Hunt queries                           | **Execution** (T1569.002), **Persistence** (T1136) |
-| **CrowdStrike XDR**    | PipeMagic Backdoor                 | **Persistence & backdoor** via named pipes               | Hunt queries + detection logic         | **Execution** (T1059), **Persistence** (T1547.013) |
+| **CrowdStrike XDR**    | PipeMagic Backdoor                 | **Persistence & backdoor** via named pipes               | Hunt queries                           | **Execution** (T1059), **Persistence** (T1547.013) |
 
 
 ---

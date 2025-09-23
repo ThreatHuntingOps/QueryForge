@@ -37,7 +37,8 @@ Flags `cmd.exe` processes using the characteristic `/d /s /c` inline pattern whe
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: cmd.exe spawned by node.exe with inline command (LastCmd behavior)

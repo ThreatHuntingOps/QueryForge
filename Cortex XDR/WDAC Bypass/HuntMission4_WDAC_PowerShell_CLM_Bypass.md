@@ -44,7 +44,7 @@ This query flags PowerShell and PowerShell Core (`pwsh.exe`) executions that con
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PowerShell Constrained Language Mode Bypass Detection 

@@ -46,8 +46,8 @@ This exact combination of parameters is a strong indicator of the Chaos ransomwa
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Chaos RaaS PowerShell Delivery Optimization Modification

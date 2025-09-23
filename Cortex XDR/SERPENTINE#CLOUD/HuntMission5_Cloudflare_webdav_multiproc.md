@@ -50,7 +50,7 @@ These patterns are indicative of attempts to leverage Cloudflare Tunnel infrastr
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
  // Title: Suspicious Scripting/Command Process with Cloudflare and Network Share Indicators

@@ -45,7 +45,7 @@ The query ties together **SMB activity** (port 445) with file operations involvi
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Network-Based WDAC Policy Deployment Detection 

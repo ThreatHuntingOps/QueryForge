@@ -42,8 +42,8 @@ These behaviors are rarely seen in legitimate administrative activity and are hi
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Vssadmin Shadow Deletion with Stop/Disable/Terminate and ECIES/Evilbyte/Prince Indicators

@@ -47,7 +47,7 @@ These patterns are indicative of potential data collection and exfiltration acti
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Azure Storage Explorer, AzCopy, and WinSCP Data Exfiltration Detection

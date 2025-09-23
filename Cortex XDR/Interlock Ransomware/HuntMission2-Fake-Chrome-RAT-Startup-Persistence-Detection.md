@@ -48,7 +48,7 @@ These patterns are indicative of RATs using masquerading and persistence techniq
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Fake Chrome RAT Dropping File in Startup via PowerShell

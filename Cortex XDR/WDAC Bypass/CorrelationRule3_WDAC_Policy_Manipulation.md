@@ -46,7 +46,7 @@ This query evaluates events across multiple dimensions - network file transfers,
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 config case_sensitive = false 

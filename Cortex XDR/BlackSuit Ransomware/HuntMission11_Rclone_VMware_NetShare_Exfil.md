@@ -48,8 +48,8 @@ These patterns are indicative of data exfiltration using rclone or its variants 
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Rclone (vmware.exe) Data Exfiltration from Network Share

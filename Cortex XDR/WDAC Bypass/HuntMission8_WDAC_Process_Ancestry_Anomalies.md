@@ -45,7 +45,7 @@ This query categorizes parent and child process roles, checks for **anomalous tr
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Process Ancestry Anomaly Detection for WDAC Bypass 

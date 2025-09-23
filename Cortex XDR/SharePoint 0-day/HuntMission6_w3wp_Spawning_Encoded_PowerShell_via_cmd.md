@@ -52,7 +52,7 @@ These patterns are indicative of attempts to execute encoded PowerShell payloads
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Detection of w3wp.exe Spawning Encoded PowerShell via cmd.exe

@@ -57,7 +57,7 @@ These patterns are indicative of credential theft, keylogging, and lateral movem
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Credential Stealer, Keylogger, and Lateral Movement Tools Detection

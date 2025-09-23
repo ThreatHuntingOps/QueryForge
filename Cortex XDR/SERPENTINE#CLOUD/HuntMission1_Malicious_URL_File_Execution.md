@@ -49,7 +49,7 @@ These patterns are indicative of user-initiated execution of potentially malicio
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious URL Shortcut Execution via url.exe or explorer.exe

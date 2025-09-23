@@ -52,7 +52,7 @@ Correlate by hostname, user, process lineage, and time proximity. Tune with allo
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PipeMagic 2025 MSBuild Execution of .mshi Files

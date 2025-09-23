@@ -37,7 +37,8 @@ Flags `wmic` invocations that query processes and request the `commandline` fiel
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: WMIC command line enumeration of node.exe (persistence staging)

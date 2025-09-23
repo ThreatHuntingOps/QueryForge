@@ -44,7 +44,7 @@ Detections fire when **at least two activity categories overlap** (e.g., RDP + W
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Hunt for lateral movement via RDP tunneling and WMI-based remote execution

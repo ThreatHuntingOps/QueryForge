@@ -44,7 +44,7 @@ These patterns are indicative of known malware or tool usage by Interlock ransom
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Interlock-Associated Files by SHA-256 Hash

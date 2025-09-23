@@ -49,7 +49,7 @@ These patterns are indicative of successful webshell deployment on SharePoint se
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Detection of spinstall0.aspx Webshell Creation by Known SHA256 Hash

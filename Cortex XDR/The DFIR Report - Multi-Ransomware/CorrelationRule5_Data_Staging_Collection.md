@@ -48,7 +48,7 @@ It prioritizes signals with **WinRAR staging + suspicious archives**, or automat
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Hunt for data collection and staging activities using WinRAR and collection tools

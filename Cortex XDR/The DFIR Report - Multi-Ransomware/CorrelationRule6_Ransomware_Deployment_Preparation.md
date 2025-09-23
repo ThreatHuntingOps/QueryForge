@@ -50,7 +50,7 @@ Multi-affiliate overlap (Play + RansomHub, RansomHub + DragonForce, etc.) raises
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Hunt for ransomware deployment indicators and multi-RaaS affiliate TTPs

@@ -41,7 +41,7 @@ Such patterns are frequently observed in malware delivery, initial access, and l
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Batch File or Parent Batch File Invoking Download Utilities

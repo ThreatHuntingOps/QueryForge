@@ -45,7 +45,8 @@ Flags recon and persistence utilities when the process lineage includes `%APPDAT
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Reconnaissance and persistence spawned from node.exe lineage

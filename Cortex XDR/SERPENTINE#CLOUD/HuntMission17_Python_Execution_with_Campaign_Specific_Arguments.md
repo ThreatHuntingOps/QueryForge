@@ -41,7 +41,7 @@ Such patterns are rarely seen in legitimate workflows and are often associated w
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Python Executable Running run.py with Specific Arguments

@@ -41,8 +41,8 @@ These behaviors are highly suspicious and rarely seen in legitimate activity, ma
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Use of ProgramData Icon/Wallpaper or Ransomware Artifacts

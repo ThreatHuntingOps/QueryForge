@@ -41,8 +41,8 @@ This multi-layered approach significantly reduces noise while maintaining high d
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious Process Command Line Switches with System Path Indicators

@@ -46,7 +46,7 @@ This query identifies suspicious persistence attempts by:
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Persistence via Schtasks and Run Keys

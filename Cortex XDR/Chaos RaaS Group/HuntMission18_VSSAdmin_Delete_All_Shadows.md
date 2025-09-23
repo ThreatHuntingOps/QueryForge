@@ -37,8 +37,8 @@ This query identifies this destructive behavior by looking for the specific comm
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Volume Shadow Copy Deletion to Inhibit System Recovery

@@ -50,7 +50,7 @@ A match for this logic is a strong indicator that an attacker is performing clea
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: HazyBeacon Post-Exploitation File Deletion

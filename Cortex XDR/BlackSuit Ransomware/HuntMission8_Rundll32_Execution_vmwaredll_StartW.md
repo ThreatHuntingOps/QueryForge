@@ -46,8 +46,8 @@ These patterns are indicative of Cobalt Strike or BlackSuit payload execution vi
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Execution of vmware.dll via rundll32.exe

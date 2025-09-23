@@ -49,7 +49,7 @@ Analysts may further enrich with **signer/parent process** or **user/session** c
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Suspicious HTTPS by Scripting/LOLBIN Processes

@@ -38,7 +38,8 @@ Detects file artifacts under `%APPDATA%\\Roaming\\php\\` and process executions 
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PHP staged to %APPDATA%\php and executed with -d extension flags

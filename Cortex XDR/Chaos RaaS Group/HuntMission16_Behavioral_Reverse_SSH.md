@@ -39,8 +39,8 @@ This query identifies a suspicious SSH tunneling technique by looking for a comb
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Reverse SSH Tunnel with Bypassed Host Key Verification

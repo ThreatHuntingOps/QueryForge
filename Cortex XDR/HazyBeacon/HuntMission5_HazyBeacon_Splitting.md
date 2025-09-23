@@ -49,7 +49,7 @@ A match for this logic is a strong indicator of malicious data staging activity.
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Data Staging via 7-Zip Volume Creation
