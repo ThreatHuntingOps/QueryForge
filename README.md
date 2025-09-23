@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/QueryForge_banner_depth.png" alt="QueryForge Banner" width="100%"/>
+  <img src="assets/QF Banner.png" alt="QueryForge Banner" width="100%"/>
 </p>
 
 # QueryForge 🔥  
