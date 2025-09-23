@@ -38,7 +38,7 @@ This query identifies process execution events where the command line or window 
 ## Hunt Query Syntax
 
 **Query Language:** XQL (XDR Query Language)  
-**Platform:** Polo Alto Networks Cortex XDR and XSIAM platforms
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Process Command Line with Privilege Escalation Messages
