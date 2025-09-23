@@ -35,7 +35,8 @@ Flags HKCU Run registry events where the value data references `%APPDATA%\\Roami
 
 ## Hunt Query Syntax
 
-**Query Language:** XQL (Cortex XSIAM)
+**Query Language:** XQL (Cortex Query Language)
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: PHP persistence via HKCU Run (random value) -> php.exe config.cfg
