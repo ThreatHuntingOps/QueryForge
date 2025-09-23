@@ -45,7 +45,7 @@ This rule correlates events for WDAC policy deployment with EDR disruption and s
 ## Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Palo Alto Cortex XSIAM  
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 config case_sensitive = false
