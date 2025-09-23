@@ -48,7 +48,7 @@ These patterns are indicative of attempts to leverage Cloudflare Tunnel infrastr
 ## Hunt Query Syntax
 
 **Query Language:** XQL (Cortex Query Language)  
-**Platform:** Polo Alto Cortex XSIAM
+**Platform:** Polo Alto Networks Cortex XDR and XSIAM
 
 ```xql
 // Title: Scripting/Command Process with trycloudflare.com and WebDAV/DAVWWWROOT Indicators
