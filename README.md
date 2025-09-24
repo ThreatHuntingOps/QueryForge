@@ -3,7 +3,7 @@
 </p>
 
 # QueryForge 🔥  
-*Forging powerful detection engineering content for threat hunters and defenders.*  
+*Forging powerful threat hunting and detection engineering content for threat hunters and defenders.*  
 
 ---
 
