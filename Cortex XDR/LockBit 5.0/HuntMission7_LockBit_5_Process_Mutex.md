@@ -97,7 +97,7 @@ config case_sensitive = false
     or causality_actor_process_image_path contains "\Users\\Public\" 
 ) 
 
-// FIXED: Changed arraycount to arraylen 
+// Recon presence gate
 | alter recon_commands = array_length(regextract(action_process_image_command_line, "(?i)(hostname|whoami|systeminfo|tasklist|net)")) 
 | filter recon_commands >= 1 
 
