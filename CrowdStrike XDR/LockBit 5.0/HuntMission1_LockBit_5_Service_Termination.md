@@ -51,7 +51,7 @@ This query focuses on detecting suspicious service manipulation by adversaries:
 **Query Language:** CrowdStrike Query Language 
 **Platform:** CrowdStrike Falcon
 
-```cql
+```fql
 // Description: Detects systematic termination of security services using service hashing patterns characteristic of LockBit 5.0's 63+ service target list
 // MITRE ATT&CK TTP ID: T1489 (Service Stop) 
 // MITRE ATT&CK TTP ID: T1562.001 (Disable or Modify Tools)
