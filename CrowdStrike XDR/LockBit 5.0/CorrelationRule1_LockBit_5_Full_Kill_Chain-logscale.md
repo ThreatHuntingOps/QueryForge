@@ -235,4 +235,4 @@ High-fidelity detection of LockBit 5.0's complete attack lifecycle from initial 
 
 | Version | Date       | Impact             | Notes                                                              |
 |---------|------------|--------------------|--------------------------------------------------------------------|
-| 1.0     | 2025-10-15 | Initial Detection  | Multi-phase correlation rule for LockBit 5.0 full kill chain       |
+| 1.0     | 2025-10-6 | Initial Detection  | Multi-phase correlation rule for LockBit 5.0 full kill chain       |
