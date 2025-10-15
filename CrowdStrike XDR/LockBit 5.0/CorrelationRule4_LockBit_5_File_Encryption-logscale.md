@@ -154,4 +154,4 @@ Mitigations:
 
 | Version | Date       | Impact                                | Notes                                   |
 |---------|------------|---------------------------------------|-----------------------------------------|
-| 1.0     | 2025-10-01 | Initial Release of File Encryption    | Detect mass encryption with 16‑char ext |
+| 1.0     | 2025-10-03 | Initial Release of File Encryption    | Detect mass encryption with 16‑char ext |
