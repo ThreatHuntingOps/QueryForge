@@ -227,4 +227,4 @@ Mitigations:
 
 | Version | Date       | Impact                                   | Notes                                       |
 |---------|------------|------------------------------------------|---------------------------------------------|
-| 1.0     | 2025-10-01 | Initial Release                          | Persistence + encryption + evasion combined |
+| 1.0     | 2025-10-03 | Initial Release                          | Persistence + encryption + evasion combined |
